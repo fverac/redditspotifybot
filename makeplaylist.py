@@ -72,7 +72,7 @@ for comment in post.comments:
 
 
     except: 
-        print("exception raised bitch")
+        pass
 
 
 newplaylist = spotify.user_playlist_create("fabioveracrespo","newplaylistyall", public = True)
